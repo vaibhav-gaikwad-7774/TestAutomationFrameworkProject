@@ -15,6 +15,8 @@ public class LoginPage {
     private By passwordField = By.id("password");
     private By loginButton = By.id("login-button");
     
+    private By appLogoText = By.xpath("//div[@class='app_logo']");
+    
 
     public LoginPage(WebDriver driver) {
     	this.driver = driver;
@@ -27,6 +29,13 @@ public class LoginPage {
     	this.enterPassword(password);
     	this.clickLogin();
     }
+    
+    
+    public String getLogoText() {
+    	return driver.findElement(appLogoText).getText();
+    }
+    
+    
     
     
     private void enterUsername(String name) {
