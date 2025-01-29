@@ -12,6 +12,7 @@
             <class name="io.learn.tests.LogoutTest"/>
             <class name="io.learn.tests.ProductTest"/>
             <class name="io.learn.tests.CartTest"/>
+            
         </classes>
     </test>
 </suite>
