@@ -2,43 +2,66 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-29T12:06:27 IST" name="All Test Suite" finished-at="2025-01-29T12:06:42 IST" duration-ms="14974">
+  <suite started-at="2025-01-29T12:49:03 IST" name="All Test Suite" finished-at="2025-01-29T12:49:36 IST" duration-ms="32640">
     <groups>
       <group name="smoke">
-        <method signature="LoginTest.testLoginSuccess()[pri:1, instance:io.learn.tests.LoginTest@1ce61929]" name="testLoginSuccess" class="io.learn.tests.LoginTest"/>
+        <method signature="LogoutTest.testLogout()[pri:0, instance:io.learn.tests.LogoutTest@162be91c]" name="testLogout" class="io.learn.tests.LogoutTest"/>
+        <method signature="LoginTest.testLoginSuccess()[pri:1, instance:io.learn.tests.LoginTest@18518ccf]" name="testLoginSuccess" class="io.learn.tests.LoginTest"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2025-01-29T12:06:27 IST" name="Regression suite - All Tests" finished-at="2025-01-29T12:06:42 IST" duration-ms="14974">
+    <test started-at="2025-01-29T12:49:03 IST" name="Smoke suite - All Tests" finished-at="2025-01-29T12:49:36 IST" duration-ms="32640">
       <class name="io.learn.tests.LoginTest">
-        <test-method is-config="true" signature="setUp(org.testng.ITestContext,java.lang.String)[pri:0, instance:io.learn.tests.LoginTest@1ce61929]" started-at="2025-01-29T12:06:27 IST" name="setUp" finished-at="2025-01-29T12:06:41 IST" duration-ms="13825" status="PASS">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext,java.lang.String)[pri:0, instance:io.learn.tests.LoginTest@18518ccf]" started-at="2025-01-29T12:49:03 IST" name="setUp" finished-at="2025-01-29T12:49:18 IST" duration-ms="15287" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@2d7a9786]]>
+                <![CDATA[org.testng.TestRunner@3206174f]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[edge]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLoginSuccess()[pri:1, instance:io.learn.tests.LoginTest@1ce61929]" started-at="2025-01-29T12:06:41 IST" name="testLoginSuccess" finished-at="2025-01-29T12:06:41 IST" duration-ms="90" status="PASS">
+        <test-method signature="testLoginSuccess()[pri:1, instance:io.learn.tests.LoginTest@18518ccf]" started-at="2025-01-29T12:49:18 IST" name="testLoginSuccess" finished-at="2025-01-29T12:49:18 IST" duration-ms="95" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginSuccess -->
-        <test-method signature="testLoginFailure()[pri:2, instance:io.learn.tests.LoginTest@1ce61929]" started-at="2025-01-29T12:06:41 IST" name="testLoginFailure" finished-at="2025-01-29T12:06:41 IST" duration-ms="656" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoginFailure -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:io.learn.tests.LoginTest@1ce61929]" started-at="2025-01-29T12:06:41 IST" name="tearDown" finished-at="2025-01-29T12:06:42 IST" duration-ms="356" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:io.learn.tests.LoginTest@18518ccf]" started-at="2025-01-29T12:49:18 IST" name="tearDown" finished-at="2025-01-29T12:49:20 IST" duration-ms="1302" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- io.learn.tests.LoginTest -->
-    </test> <!-- Regression suite - All Tests -->
+      <class name="io.learn.tests.LogoutTest">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext,java.lang.String)[pri:0, instance:io.learn.tests.LogoutTest@162be91c]" started-at="2025-01-29T12:49:20 IST" name="setUp" finished-at="2025-01-29T12:49:34 IST" duration-ms="14289" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3206174f]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogout()[pri:0, instance:io.learn.tests.LogoutTest@162be91c]" started-at="2025-01-29T12:49:34 IST" name="testLogout" finished-at="2025-01-29T12:49:34 IST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:io.learn.tests.LogoutTest@162be91c]" started-at="2025-01-29T12:49:34 IST" name="tearDown" finished-at="2025-01-29T12:49:36 IST" duration-ms="1331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- io.learn.tests.LogoutTest -->
+    </test> <!-- Smoke suite - All Tests -->
   </suite> <!-- All Test Suite -->
 </testng-results>
